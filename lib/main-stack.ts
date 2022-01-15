@@ -2,11 +2,13 @@ import { Stack, StackProps } from "aws-cdk-lib";
 import { Vpc, SubnetType } from "aws-cdk-lib/aws-ec2";
 import { Construct } from "constructs";
 
-export class CdkPlaygroundStack extends Stack {
+export class MainStack extends Stack {
+  public readonly vpc: Vpc;
+
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
-    new Vpc(this, "vpc", {
+    const vpc = new Vpc(this, "vpc", {
       cidr: "10.0.0.0/16",
       maxAzs: 2,
       natGateways: 1,
@@ -28,5 +30,8 @@ export class CdkPlaygroundStack extends Stack {
         },
       ],
     });
+
+    // Export
+    this.vpc = vpc;
   }
 }
