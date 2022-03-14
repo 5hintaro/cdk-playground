@@ -5,6 +5,7 @@
   "schedule": ["every weekday"],
   "dependencyDashboard": true,
   "platformAutomerge": true,
+  "ignoreTests": true,
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
