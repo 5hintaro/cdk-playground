@@ -1,5 +1,28 @@
 {
-  "extends": [
-    "config:base"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", ":timezone(Asia/Tokyo)"],
+  "labels": ["renovate"],
+  "schedule": ["every weekday"],
+  "dependencyDashboard": true,
+  "platformAutomerge": true,
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "groupName": "devDependencies",
+      "rangeStrategy": "update-lockfile",
+      "automerge": true
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "dependencies (non-major)",
+      "automerge": true
+    },
+    {
+      "matchPackageNames": ["aws-cdk", "aws-cdk-lib"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "extends": ["schedule:weekly"],
+      "automerge": true
+    }
   ]
 }
