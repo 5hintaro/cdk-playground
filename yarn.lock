@@ -1041,10 +1041,10 @@ concat-map@0.0.1:
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-constructs@10.0.94:
-  version "10.0.94"
-  resolved "https://registry.npmjs.org/constructs/-/constructs-10.0.94.tgz"
-  integrity sha512-Ff0MifyD8nDXrte8uUwf5sg7IwG+oJ6uAdbMhoqUh0arVTPE/qRO84dcGBqoojsffIR9kgt9u//N8JD+I9HDKg==
+constructs@10.0.95:
+  version "10.0.95"
+  resolved "https://registry.npmjs.org/constructs/-/constructs-10.0.95.tgz"
+  integrity sha512-mMay8dY4qOAumJLFacG6eFC1gXx96yPn+uFPPtGMtwZOKyjZ+k6nJ0hZZwm/gKfhUgeoHEOKpk4t2MxbiLsooA==
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.8.0"
@@ -2688,9 +2688,9 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.6.3:
+typescript@~4.6.0:
   version "4.6.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.3.tgz#eefeafa6afdd31d725584c67a0eaba80f6fc6c6c"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-4.6.3.tgz"
   integrity sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==
 
 universalify@^0.1.2:
