@@ -2,27 +2,27 @@
 # yarn lockfile v1
 
 
-"@aws-cdk/assert@2.17.0":
-  version "2.17.0"
-  resolved "https://registry.npmjs.org/@aws-cdk/assert/-/assert-2.17.0.tgz"
-  integrity sha512-KmdcQJKCQBvJ41gQeugeDQFWxAu7nN8R6DuvCWE8/+9npUlDoL3+pDX+jtwo9pphWXapXEIZh44DTV2i+YzHIw==
+"@aws-cdk/assert@2.18.0":
+  version "2.18.0"
+  resolved "https://registry.npmjs.org/@aws-cdk/assert/-/assert-2.18.0.tgz"
+  integrity sha512-Xh/F6LEYhf72uW444YucHvYzoLFb+l81X3MGCAfuxL999DR5mPLNACjdcQ7iQ+qcf7lARoTJq4d3LOXBToWloQ==
   dependencies:
-    "@aws-cdk/cloudformation-diff" "2.17.0"
+    "@aws-cdk/cloudformation-diff" "2.18.0"
 
-"@aws-cdk/cfnspec@2.17.0":
-  version "2.17.0"
-  resolved "https://registry.npmjs.org/@aws-cdk/cfnspec/-/cfnspec-2.17.0.tgz"
-  integrity sha512-IE408b77xi8zwasbHMyMlqvK+iudTjl1nGmFEWrCugZQMH935CNXf46JNA0yTevWfenI+TiJ/hgEEVjAOFF0iQ==
+"@aws-cdk/cfnspec@2.18.0":
+  version "2.18.0"
+  resolved "https://registry.npmjs.org/@aws-cdk/cfnspec/-/cfnspec-2.18.0.tgz"
+  integrity sha512-XEKtaJc83TZljUJ1x/n4ccoZHu6zbMd+R/XuSl0f9y8VQj3QVgXRHFS7k09AKul/PbAMup0C526ruCZU20TGAg==
   dependencies:
     fs-extra "^9.1.0"
     md5 "^2.3.0"
 
-"@aws-cdk/cloudformation-diff@2.17.0":
-  version "2.17.0"
-  resolved "https://registry.npmjs.org/@aws-cdk/cloudformation-diff/-/cloudformation-diff-2.17.0.tgz"
-  integrity sha512-zLUeVqb+FVHzcb1zwVv/aZX/uPOzr2R3BdPOSwFVOU6UZEaVLT0cD4hvj5w3XtS3aHT2L0OMFISA7x7meWNddw==
+"@aws-cdk/cloudformation-diff@2.18.0":
+  version "2.18.0"
+  resolved "https://registry.npmjs.org/@aws-cdk/cloudformation-diff/-/cloudformation-diff-2.18.0.tgz"
+  integrity sha512-trBbwcifHoaJrZ1+idWWW6J7Du10SRZeAxfVi0/CFBB7ps2kYkGLHoGt3cCJ9h+blslAsKwUg1xr49stvJtz/g==
   dependencies:
-    "@aws-cdk/cfnspec" "2.17.0"
+    "@aws-cdk/cfnspec" "2.18.0"
     "@types/node" "^10.17.60"
     chalk "^4"
     diff "^5.0.0"
@@ -786,10 +786,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.npmjs.org/at-least-node/-/at-least-node-1.0.0.tgz"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-cdk-lib@2.17.0:
-  version "2.17.0"
-  resolved "https://registry.npmjs.org/aws-cdk-lib/-/aws-cdk-lib-2.17.0.tgz"
-  integrity sha512-bga2HptbGx3rMdSkIKxBS13miogj/DHB2VPfQZAoKoCOAanOot+M3mHhYqe5aNdxhrppaRjG2eid2p1/MvRnvg==
+aws-cdk-lib@2.18.0:
+  version "2.18.0"
+  resolved "https://registry.npmjs.org/aws-cdk-lib/-/aws-cdk-lib-2.18.0.tgz"
+  integrity sha512-4XpEqRgKSzDmcpeNGRqRlnWEltnt5+NoHWKpQDHUsAmyJ2QNQ5dYxVLIReaGiE9H8zS0rlpp3exuDEy0UgKj2Q==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -1041,10 +1041,10 @@ concat-map@0.0.1:
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-constructs@10.0.98:
-  version "10.0.98"
-  resolved "https://registry.npmjs.org/constructs/-/constructs-10.0.98.tgz"
-  integrity sha512-xhPAuudPnQg3RbAIsK/x1XFDM+x//lgCV7UJbt0rUqhkzo1gytS852dG3LQd2tYPy8TQT0hStQjskikXShBgSg==
+constructs@10.0.99:
+  version "10.0.99"
+  resolved "https://registry.npmjs.org/constructs/-/constructs-10.0.99.tgz"
+  integrity sha512-MazkGXhcYYr0g4irCS5oOftdQfKbxcPErcEDI9RgNbNqRyqh1PChL87Zk//PyhUNcJJohFYaj0jZBc2ovDTuHQ==
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.8.0"
