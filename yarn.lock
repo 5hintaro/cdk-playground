@@ -2,27 +2,27 @@
 # yarn lockfile v1
 
 
-"@aws-cdk/assert@2.19.0":
-  version "2.19.0"
-  resolved "https://registry.npmjs.org/@aws-cdk/assert/-/assert-2.19.0.tgz"
-  integrity sha512-Ia0ooAppVjmlHsSFmH8FtJ1wOxRqPqNbYj26ZDkV9y0EwlUIIKPPgd21Qlu8bNa8iRpY+M1IWeE4ctiI0/Bd7w==
+"@aws-cdk/assert@2.20.0":
+  version "2.20.0"
+  resolved "https://registry.npmjs.org/@aws-cdk/assert/-/assert-2.20.0.tgz"
+  integrity sha512-uDxe7jU68+9CX9KwG1LHgtR4/lRZ1yUV9A9M35vbdIc8hBZb1ZKQkHMZ66LPQOMtcPbt1KmUH1Ac7bO10Qib/g==
   dependencies:
-    "@aws-cdk/cloudformation-diff" "2.19.0"
+    "@aws-cdk/cloudformation-diff" "2.20.0"
 
-"@aws-cdk/cfnspec@2.19.0":
-  version "2.19.0"
-  resolved "https://registry.npmjs.org/@aws-cdk/cfnspec/-/cfnspec-2.19.0.tgz"
-  integrity sha512-MF5vi3dLFqlyOFWWhDKvRI/NUvu+9De+BxMAFPlOteSHUTUjOROKAL1CdEygR/B6x25uOfRaQ2GcuurPyrBzfQ==
+"@aws-cdk/cfnspec@2.20.0":
+  version "2.20.0"
+  resolved "https://registry.npmjs.org/@aws-cdk/cfnspec/-/cfnspec-2.20.0.tgz"
+  integrity sha512-HQhcf2JY0nCwz/BLP8HUIR4KCtpPB3RuW0g3/Djgm4vk+q8067KH5vTmSB+p/Q8xWM9GBcf//2jvtLFLXAWGYQ==
   dependencies:
     fs-extra "^9.1.0"
     md5 "^2.3.0"
 
-"@aws-cdk/cloudformation-diff@2.19.0":
-  version "2.19.0"
-  resolved "https://registry.npmjs.org/@aws-cdk/cloudformation-diff/-/cloudformation-diff-2.19.0.tgz"
-  integrity sha512-7WtCLnSurh54ON7+UZgWu+1mbkf0IvPrm/9ZkeuVLEYFCy4h6uVYWRmRyiuzxnKAtcTpzcAVa0J1NyM54udrsA==
+"@aws-cdk/cloudformation-diff@2.20.0":
+  version "2.20.0"
+  resolved "https://registry.npmjs.org/@aws-cdk/cloudformation-diff/-/cloudformation-diff-2.20.0.tgz"
+  integrity sha512-dyRultKi0RlyAwngwPJ8uOa4C1R2WoprRAgB6/vmf/Pn1RvVQoTOTPJfazNIy4WJrFYlycoe63zRbj9vlnvaMg==
   dependencies:
-    "@aws-cdk/cfnspec" "2.19.0"
+    "@aws-cdk/cfnspec" "2.20.0"
     "@types/node" "^10.17.60"
     chalk "^4"
     diff "^5.0.0"
@@ -786,10 +786,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.npmjs.org/at-least-node/-/at-least-node-1.0.0.tgz"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-cdk-lib@2.19.0:
-  version "2.19.0"
-  resolved "https://registry.npmjs.org/aws-cdk-lib/-/aws-cdk-lib-2.19.0.tgz"
-  integrity sha512-zt0lAsTpYfrDitjJXp1smEi4o1EYtAAj4fb0WW4GYBW+P6FqymXyAF5mUT8YWPkMJTnSP8d4FeDUyatQVWYRJA==
+aws-cdk-lib@2.20.0:
+  version "2.20.0"
+  resolved "https://registry.npmjs.org/aws-cdk-lib/-/aws-cdk-lib-2.20.0.tgz"
+  integrity sha512-jACK/1UJxtWWl6QH+I1V8Oc8F1EEL6aFQYk24DIrzNyB1Aj9LIs9/NyDu5zN00QFKrR6aDE7WAv1VG3sa6wWdg==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
