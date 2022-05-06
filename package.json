@@ -23,6 +23,6 @@
   "dependencies": {
     "@aws-cdk/assert": "2.23.0",
     "aws-cdk-lib": "2.23.0",
-    "constructs": "10.1.0"
+    "constructs": "10.1.1"
   }
 }
