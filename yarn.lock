@@ -2,27 +2,27 @@
 # yarn lockfile v1
 
 
-"@aws-cdk/assert@2.23.0":
-  version "2.23.0"
-  resolved "https://registry.npmjs.org/@aws-cdk/assert/-/assert-2.23.0.tgz"
-  integrity sha512-szfjBJznK1V33y39ExjCNf0NefA/QJhSZlevtxaUiHRhYh2ZjzOXLJhtWmrrjxO2wZFbUSrXmZOJMG59wge0Zg==
+"@aws-cdk/assert@2.24.0":
+  version "2.24.0"
+  resolved "https://registry.npmjs.org/@aws-cdk/assert/-/assert-2.24.0.tgz"
+  integrity sha512-HK0Mzf+e9enikSFfA7mFUffJ01dg7P9IKlvEq7RjMWK7W+POgbKuMcJMLD80VEVkv29xXoa5B4EcRIvZT6AFEQ==
   dependencies:
-    "@aws-cdk/cloudformation-diff" "2.23.0"
+    "@aws-cdk/cloudformation-diff" "2.24.0"
 
-"@aws-cdk/cfnspec@2.23.0":
-  version "2.23.0"
-  resolved "https://registry.npmjs.org/@aws-cdk/cfnspec/-/cfnspec-2.23.0.tgz"
-  integrity sha512-SzOj4nPdaRl826Hj8Pcln4cHCNBZGCI/7fQS1OGwIiU2M8IfGmZh/sC53+Muf9OR5ARcKW3tWziolyd4mkhRRw==
+"@aws-cdk/cfnspec@2.24.0":
+  version "2.24.0"
+  resolved "https://registry.npmjs.org/@aws-cdk/cfnspec/-/cfnspec-2.24.0.tgz"
+  integrity sha512-QKRU6OYWJhG1rELfRtV+akfCmtXaENEHCR0+e0DtomQc0piTF9mL55LKlyV4c8zb88UxPUrqlufLnJScfu1EDw==
   dependencies:
     fs-extra "^9.1.0"
     md5 "^2.3.0"
 
-"@aws-cdk/cloudformation-diff@2.23.0":
-  version "2.23.0"
-  resolved "https://registry.npmjs.org/@aws-cdk/cloudformation-diff/-/cloudformation-diff-2.23.0.tgz"
-  integrity sha512-+lqBr+JVg7+xnusxxTU52PiyhgOZWnYBLyEMqCOWQW+4vPqVSc5su7qlWUtsdfayat65Xc/JSczb1c/2iPbmYg==
+"@aws-cdk/cloudformation-diff@2.24.0":
+  version "2.24.0"
+  resolved "https://registry.npmjs.org/@aws-cdk/cloudformation-diff/-/cloudformation-diff-2.24.0.tgz"
+  integrity sha512-Qo0YkPfFkRicq8FQ69V4Nx9JHSOuyXnfyVhqOhsUvsTrPf3UDD4q3PHvfooYCbUqHKudF2ta2JxRKYxYZL6PCA==
   dependencies:
-    "@aws-cdk/cfnspec" "2.23.0"
+    "@aws-cdk/cfnspec" "2.24.0"
     "@types/node" "^10.17.60"
     chalk "^4"
     diff "^5.0.0"
@@ -792,10 +792,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.npmjs.org/at-least-node/-/at-least-node-1.0.0.tgz"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-cdk-lib@2.23.0:
-  version "2.23.0"
-  resolved "https://registry.npmjs.org/aws-cdk-lib/-/aws-cdk-lib-2.23.0.tgz"
-  integrity sha512-ewUgVRnXA31yZPz/X1BfyVgzCBlPfyjadmkYQsZgT3vRE+NbddTRG4O5r+k9O46xLC41YV8ZMCnhsfPfa5VRKA==
+aws-cdk-lib@2.24.0:
+  version "2.24.0"
+  resolved "https://registry.npmjs.org/aws-cdk-lib/-/aws-cdk-lib-2.24.0.tgz"
+  integrity sha512-icYISk6uddpBDe2csqIpZ0PPo8ryg8Polyxyh9ri6rmRIElOJIkBmTpJc7ORcP9vv9LjFIH6BRV7OltUxpcWUg==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -804,7 +804,7 @@ aws-cdk-lib@2.23.0:
     jsonschema "^1.4.0"
     minimatch "^3.1.2"
     punycode "^2.1.1"
-    semver "^7.3.6"
+    semver "^7.3.7"
     yaml "1.10.2"
 
 aws-cdk@^2.8.0:
@@ -2168,7 +2168,7 @@ safe-buffer@~5.1.1:
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
 
-semver@7.x, semver@^7.3.5, semver@^7.3.6:
+semver@7.x, semver@^7.3.5, semver@^7.3.7:
   version "7.3.7"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.7.tgz#12c5b649afdbf9049707796e22a4028814ce523f"
   integrity sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==
