@@ -2,27 +2,27 @@
 # yarn lockfile v1
 
 
-"@aws-cdk/assert@2.24.0":
-  version "2.24.0"
-  resolved "https://registry.npmjs.org/@aws-cdk/assert/-/assert-2.24.0.tgz"
-  integrity sha512-HK0Mzf+e9enikSFfA7mFUffJ01dg7P9IKlvEq7RjMWK7W+POgbKuMcJMLD80VEVkv29xXoa5B4EcRIvZT6AFEQ==
+"@aws-cdk/assert@2.24.1":
+  version "2.24.1"
+  resolved "https://registry.npmjs.org/@aws-cdk/assert/-/assert-2.24.1.tgz"
+  integrity sha512-IJ+wm1wk/HqaEJs0VbaIOdSTysZv0sOvDO50Jm5mkTFqytHTLJ/Uzla/30K8YJZmP7jEtdPFv21Sk4ZsK1x++g==
   dependencies:
-    "@aws-cdk/cloudformation-diff" "2.24.0"
+    "@aws-cdk/cloudformation-diff" "2.24.1"
 
-"@aws-cdk/cfnspec@2.24.0":
-  version "2.24.0"
-  resolved "https://registry.npmjs.org/@aws-cdk/cfnspec/-/cfnspec-2.24.0.tgz"
-  integrity sha512-QKRU6OYWJhG1rELfRtV+akfCmtXaENEHCR0+e0DtomQc0piTF9mL55LKlyV4c8zb88UxPUrqlufLnJScfu1EDw==
+"@aws-cdk/cfnspec@2.24.1":
+  version "2.24.1"
+  resolved "https://registry.npmjs.org/@aws-cdk/cfnspec/-/cfnspec-2.24.1.tgz"
+  integrity sha512-2YOuScwQpeOkv0kLM2kkPMZBm7z7DhKIRVBZORZWctQHDhFe43RrSMThBwKgrp/GpnQV/1fN2bkyXpYyF0MeAg==
   dependencies:
     fs-extra "^9.1.0"
     md5 "^2.3.0"
 
-"@aws-cdk/cloudformation-diff@2.24.0":
-  version "2.24.0"
-  resolved "https://registry.npmjs.org/@aws-cdk/cloudformation-diff/-/cloudformation-diff-2.24.0.tgz"
-  integrity sha512-Qo0YkPfFkRicq8FQ69V4Nx9JHSOuyXnfyVhqOhsUvsTrPf3UDD4q3PHvfooYCbUqHKudF2ta2JxRKYxYZL6PCA==
+"@aws-cdk/cloudformation-diff@2.24.1":
+  version "2.24.1"
+  resolved "https://registry.npmjs.org/@aws-cdk/cloudformation-diff/-/cloudformation-diff-2.24.1.tgz"
+  integrity sha512-swE+2HJzTmkQRROOBAYWe1KYu1mEs6+1qDwJMYyybeObCfeqluJXXoTQlUXXOqDOzmUfBtEIbehtPdqFPTMf8Q==
   dependencies:
-    "@aws-cdk/cfnspec" "2.24.0"
+    "@aws-cdk/cfnspec" "2.24.1"
     "@types/node" "^10.17.60"
     chalk "^4"
     diff "^5.0.0"
@@ -679,7 +679,7 @@
     jest-matcher-utils "^27.0.0"
     pretty-format "^27.0.0"
 
-"@types/node@*", "@types/node@^16.11.35":
+"@types/node@*", "@types/node@^16.0.0":
   version "16.11.35"
   resolved "https://registry.npmjs.org/@types/node/-/node-16.11.35.tgz"
   integrity sha512-QXu45LyepgnhUfnIAj/FyT4uM87ug5KpIrgXfQtUPNAlx8w5hmd8z8emqCLNvG11QkpRSCG9Qg2buMxvqfjfsQ==
@@ -792,10 +792,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.npmjs.org/at-least-node/-/at-least-node-1.0.0.tgz"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-cdk-lib@2.24.0:
-  version "2.24.0"
-  resolved "https://registry.npmjs.org/aws-cdk-lib/-/aws-cdk-lib-2.24.0.tgz"
-  integrity sha512-icYISk6uddpBDe2csqIpZ0PPo8ryg8Polyxyh9ri6rmRIElOJIkBmTpJc7ORcP9vv9LjFIH6BRV7OltUxpcWUg==
+aws-cdk-lib@2.24.1:
+  version "2.24.1"
+  resolved "https://registry.npmjs.org/aws-cdk-lib/-/aws-cdk-lib-2.24.1.tgz"
+  integrity sha512-xGeEX+9wPGppSiIUdf/JTLMmqMikGhlSi7bjijl3lwncZtySkdjX0j+W2A1fuKp0S8Yd2axkwVkltIMxzNH/gw==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -807,9 +807,9 @@ aws-cdk-lib@2.24.0:
     semver "^7.3.7"
     yaml "1.10.2"
 
-aws-cdk@^2.24.0:
+aws-cdk@^2.8.0:
   version "2.24.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.24.0.tgz#e46cc2372b232b4c1b1f52b047b2dea4424f9461"
+  resolved "https://registry.npmjs.org/aws-cdk/-/aws-cdk-2.24.0.tgz"
   integrity sha512-XqAyD2WIaKnglUPlePt6c7WMICemo6Rl9RPnKqI0IKnnzTORuXHyVw9i6F9S0jNV31iDw2uxZPDUfcZ83owq/Q==
   optionalDependencies:
     fsevents "2.3.2"
