@@ -679,10 +679,10 @@
     jest-matcher-utils "^27.0.0"
     pretty-format "^27.0.0"
 
-"@types/node@*", "@types/node@^16.0.0":
-  version "16.11.35"
-  resolved "https://registry.npmjs.org/@types/node/-/node-16.11.35.tgz"
-  integrity sha512-QXu45LyepgnhUfnIAj/FyT4uM87ug5KpIrgXfQtUPNAlx8w5hmd8z8emqCLNvG11QkpRSCG9Qg2buMxvqfjfsQ==
+"@types/node@*", "@types/node@^16.11.36":
+  version "16.11.36"
+  resolved "https://registry.npmjs.org/@types/node/-/node-16.11.36.tgz"
+  integrity sha512-FR5QJe+TaoZ2GsMHkjuwoNabr+UrJNRr2HNOo+r/7vhcuntM6Ee/pRPOnRhhL2XE9OOvX9VLEq+BcXl3VjNoWA==
 
 "@types/node@^10.17.60":
   version "10.17.60"
@@ -807,9 +807,9 @@ aws-cdk-lib@2.24.1:
     semver "^7.3.7"
     yaml "1.10.2"
 
-aws-cdk@^2.24.1:
+aws-cdk@^2.8.0:
   version "2.24.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.24.1.tgz#88c3ece3c01674fbed4e131f3391aa199b5e3871"
+  resolved "https://registry.npmjs.org/aws-cdk/-/aws-cdk-2.24.1.tgz"
   integrity sha512-fDcJW7tLbqsCvWB3eZY6glRrjRE45VqLT+JuKz3C2jIe6qXkwV8dBwYXElwY/tTCh/hDlpWtCNMRdhmrdE25GQ==
   optionalDependencies:
     fsevents "2.3.2"
