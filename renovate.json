@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":timezone(Asia/Tokyo)"],
   "labels": ["renovate"],
-  "schedule": ["every weekday"],
+  "schedule": ["before 3am on the first day of the month"],
   "dependencyDashboard": true,
   "platformAutomerge": true,
   "ignoreTests": true,
@@ -22,7 +22,6 @@
     {
       "matchPackageNames": ["aws-cdk", "aws-cdk-lib"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "extends": ["schedule:weekly"],
       "automerge": true
     }
   ]
