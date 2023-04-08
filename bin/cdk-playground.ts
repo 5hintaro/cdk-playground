@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import * as cdk from "aws-cdk-lib";
 import { MainStack } from "../lib/main-stack";
-import { FargateStack } from "../lib/fargate";
+import { FargateStack } from "../lib/fargate-stack";
 
 const app = new cdk.App();
 
