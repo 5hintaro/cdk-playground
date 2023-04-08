@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import * as cdk from "aws-cdk-lib";
 import { MainStack } from "../lib/main-stack";
-import { SubStack } from "../lib/sub-stack";
+import { FargateStack } from "../lib/fargate";
 
 const app = new cdk.App();
 
@@ -16,7 +16,7 @@ const mainStack = new MainStack(app, "MainStack", {
   },
 });
 
-new SubStack(app, "SubStack", {
+new FargateStack(app, "FargateStack", {
   vpc: mainStack.vpc,
   env: {
     account: process.env.CDK_DEFAULT_ACCOUNT,
