@@ -18,7 +18,7 @@
     "prettier": "2.8.8",
     "ts-jest": "^29.0.0",
     "ts-node": "^10.0.0",
-    "typescript": "~5.1.0"
+    "typescript": "~5.2.0"
   },
   "dependencies": {
     "@aws-cdk/assert": "2.68.0",
